@@ -4,12 +4,6 @@
     "displayName": "home-rooms"
   },
   "options": {},
-  "attributes": {
-    "rooms": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::room.room"
-    }
-  },
+  "attributes": {},
   "config": {}
 }

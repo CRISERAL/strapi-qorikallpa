@@ -23,9 +23,7 @@ export interface HomeHomeRooms extends Struct.ComponentSchema {
   info: {
     displayName: 'home-rooms';
   };
-  attributes: {
-    rooms: Schema.Attribute.Relation<'oneToMany', 'api::room.room'>;
-  };
+  attributes: {};
 }
 
 export interface HomeHomeServices extends Struct.ComponentSchema {
