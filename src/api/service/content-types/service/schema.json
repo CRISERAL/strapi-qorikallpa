@@ -31,14 +31,14 @@
         }
       }
     },
-    "images": {
+    "image": {
       "type": "media",
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       },
-      "multiple": true,
+      "multiple": false,
       "allowedTypes": [
         "images",
         "files",
